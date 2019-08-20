@@ -3,7 +3,9 @@
     "test": "mocha test",
     "test:coverage": "nyc npm test",
     "demo": "nyc node demo.js",
-    "success": "cowsay 'gra gitara!'"
+    "test:nyan": "npm test -- --reporter nyan",
+    "success": "cowsay 'elo mordo!'",
+    "report-coverage": "nyc report --reporter=text-lvov > coverage.lcov && codecov"
   },
   "dependencies": {
     "cowsay": "^1.4.0",
