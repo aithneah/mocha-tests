@@ -5,7 +5,7 @@
     "demo": "nyc node demo.js",
     "test:nyan": "npm test -- --reporter nyan",
     "success": "cowsay 'elo mordo!'",
-    "report-coverage": "nyc report --reporter=text-lvov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "dependencies": {
     "cowsay": "^1.4.0",
